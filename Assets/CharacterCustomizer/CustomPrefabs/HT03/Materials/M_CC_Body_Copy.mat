@@ -1,6 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2357936191576212353
+--- !u!114 &-7759020437277198045
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
+--- !u!114 &-4846298794046575732
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,7 +113,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Footwear_Mask:
-        m_Texture: {fileID: 2800000, guid: fb479e60d2464914fb00a508c200739d, type: 3}
+        m_Texture: {fileID: 2800000, guid: ebc64e994cd3c9347855d4da67c287f7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Freckles:
@@ -356,7 +369,7 @@ Material:
     - _Roughness_Noise_Effect: 0.574
     - _Roughness_Noise_Scale: 2500
     - _Shadow_Saturation: 0
-    - _Skin_Smoothness: 0.5
+    - _Skin_Smoothness: 0.5544756
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _Specular: 0.138
@@ -375,11 +388,11 @@ Material:
     - _SupportDecals: 1
     - _Surface: 0
     - _SurfaceType: 0
-    - _Tattoo_Offset_X: 2.61
-    - _Tattoo_Offset_Y: 1.65
-    - _Tattoo_Rotation: 1.01
-    - _Tattoo_Scale_X: 3.13
-    - _Tattoo_Scale_Y: 2.4
+    - _Tattoo_Offset_X: 0
+    - _Tattoo_Offset_Y: 0
+    - _Tattoo_Rotation: 0
+    - _Tattoo_Scale_X: 0
+    - _Tattoo_Scale_Y: 0
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 0
@@ -405,25 +418,12 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Eyebrow_Tint: {r: 0, g: 0, b: 0, a: 0}
-    - _Hair_Tint: {r: 0.6313726, g: 0.6313726, b: 0.6313726, a: 1}
+    - _Hair_Tint: {r: 0.2781281, g: 0.2781281, b: 0.2781281, a: 1}
     - _HoverTint: {r: 1, g: 0.6, b: 0, a: 0.5019608}
     - _Lips_Color: {r: 0, g: 0, b: 0, a: 0.59607846}
     - _Make_Up_Tint: {r: 0, g: 0, b: 0, a: 0}
-    - _Skin_Tint: {r: 0.7, g: 0.56, b: 0.48999998, a: 0}
+    - _Skin_Tint: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Specular: {r: 0.34901962, g: 0.32156864, b: 0.30980393, a: 1}
     - _WorldSpaceLightPos0: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3410942139896212961
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 0

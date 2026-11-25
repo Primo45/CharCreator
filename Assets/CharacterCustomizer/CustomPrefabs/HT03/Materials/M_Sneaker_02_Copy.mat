@@ -1,19 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8939075038228480996
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
---- !u!114 &-5840289214706565580
+--- !u!114 &-5450233945387607557
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -26,6 +13,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 0
+--- !u!114 &-3161258737372963812
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -33,7 +33,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Suit_Pants_Copy
+  m_Name: M_Sneaker_02_Copy
   m_Shader: {fileID: -6465566751694194690, guid: ec855ac9dde5dad46bf9fb1af1ae8150,
     type: 3}
   m_Parent: {fileID: 0}
@@ -41,6 +41,7 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
+  - _NORMALMAP
   - _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
@@ -63,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 93b18b8805345f949b2b816b36367cea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Base_Color:
@@ -123,7 +124,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 93b18b8805345f949b2b816b36367cea, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -135,11 +136,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 9909938b4fdcede46878cff325339787, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8aad2e7f22587784aa5fef81280a92f3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8aad2e7f22587784aa5fef81280a92f3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapOS:
@@ -147,7 +148,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Packed:
-        m_Texture: {fileID: 2800000, guid: 8c27c94483e66684c962cc0d31fcc189, type: 3}
+        m_Texture: {fileID: 2800000, guid: 22ebf20436daf404c8f9376802ee4a02, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Print:
@@ -155,7 +156,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Roughness:
-        m_Texture: {fileID: 2800000, guid: 19dd76c2bf6684a40aee9037e85f18f5, type: 3}
+        m_Texture: {fileID: 2800000, guid: c9a3fe33b9fad7242a2003c0f222a58b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecularColorMap:
@@ -179,7 +180,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tint_Mask:
-        m_Texture: {fileID: 2800000, guid: 057fbac6ad929b143b733e07cc556af1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7a495a64e32df0a4ab067422d20ac892, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TransmittanceColorMap:
@@ -219,8 +220,7 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _Base_Color_Tiling: 1
     - _BlendMode: 0
-    - _Brightness_Adjust: 0.4
-    - _Cloth_Alpha: 0.8
+    - _Brightness_Adjust: 1
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
@@ -230,13 +230,13 @@ Material:
     - _DetailAlbedoScale: 1
     - _DetailNormalScale: 1
     - _DetailSmoothnessScale: 1
-    - _Detail_Main_Only: 1
+    - _Detail_Main_Only: 0
     - _Detail_Normal_Strength: 0
     - _Detail_Strength: 0
     - _Detail_Strength_B: 0
     - _Detail_Strength_G: 0
     - _Detail_Strength_R: 0
-    - _Detail_Tiling: 8
+    - _Detail_Tiling: 1
     - _Detail_Tiling_B: 1
     - _Detail_Tiling_G: 1
     - _Detail_Tiling_R: 1
@@ -246,7 +246,7 @@ Material:
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
     - _DoubleSidedEnable: 0
-    - _DoubleSidedGIMode: 0
+    - _DoubleSidedGIMode: 2
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
     - _EmissiveColorMode: 1
@@ -257,7 +257,6 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
-    - _ExcludeFromTUAndAA: 0
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
@@ -357,10 +356,10 @@ Material:
     - _Print_Rotation: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _Tint: {r: 0.33096722, g: 0.36287624, b: 0.45151353, a: 1}
-    - _Tint_B: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint_G: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint_R: {r: 0.41088474, g: 0.3742746, b: 0.3371829, a: 1}
+    - _Tint: {r: 0.5050551, g: 0.5050551, b: 0.5050551, a: 1}
+    - _Tint_B: {r: 0.3096825, g: 0.3096825, b: 0.3096825, a: 1}
+    - _Tint_G: {r: 0.19113308, g: 0.52669114, b: 0.24917388, a: 1}
+    - _Tint_R: {r: 0.23976636, g: 0.13053104, b: 0.046320505, a: 1}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}

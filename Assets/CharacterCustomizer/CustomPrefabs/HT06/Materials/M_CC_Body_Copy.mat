@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8729837775968841059
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -55,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Color_Map:
-        m_Texture: {fileID: 2800000, guid: d1bd80b666274564699eaf196e782b15, type: 3}
+        m_Texture: {fileID: 2800000, guid: f5e5e0d4e0847cc4189a23af94decf3d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -87,7 +100,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Footwear_Mask:
-        m_Texture: {fileID: 2800000, guid: ebc64e994cd3c9347855d4da67c287f7, type: 3}
+        m_Texture: {fileID: 2800000, guid: fb479e60d2464914fb00a508c200739d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Freckles:
@@ -308,7 +321,7 @@ Material:
     - _FS_Strength_1: 0.1
     - _FS_Strength_2: 0.05
     - _Freckles_Opacity: 0
-    - _Freckles_Strength: 0.33
+    - _Freckles_Strength: 0
     - _Fresnel_Effect: 0.1
     - _Fresnel_Power: 3
     - _Fresnel_Shadow_Effect: 0
@@ -343,7 +356,7 @@ Material:
     - _Roughness_Noise_Effect: 0.574
     - _Roughness_Noise_Scale: 2500
     - _Shadow_Saturation: 0
-    - _Skin_Smoothness: 0.5
+    - _Skin_Smoothness: 0.095971026
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _Specular: 0.138
@@ -396,12 +409,12 @@ Material:
     - _HoverTint: {r: 1, g: 0.6, b: 0, a: 0.5019608}
     - _Lips_Color: {r: 0, g: 0, b: 0, a: 0.59607846}
     - _Make_Up_Tint: {r: 0, g: 0, b: 0, a: 0}
-    - _Skin_Tint: {r: 0.7, g: 0.070000015, b: 0.070000015, a: 0.29803923}
+    - _Skin_Tint: {r: 0.7, g: 0.56, b: 0.48999998, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Specular: {r: 0.34901962, g: 0.32156864, b: 0.30980393, a: 1}
     - _WorldSpaceLightPos0: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3958277237427336707
+--- !u!114 &4122968763586159734
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -414,16 +427,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 7
---- !u!114 &8179627363709509686
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 0

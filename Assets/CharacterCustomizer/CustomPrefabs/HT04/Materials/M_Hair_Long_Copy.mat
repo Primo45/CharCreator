@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-199915313179018082
+--- !u!114 &-1081214485878625023
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -280,7 +280,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Hair_Tint: {r: 0.18039216, g: 0.17254902, b: 0.16470589, a: 1}
+    - _Hair_Tint: {r: 0.25882354, g: 0.21568628, b: 0.18039216, a: 1}
     - _Highlight_1_Tint: {r: 0.32084376, g: 0.4604651, b: 0.6603774, a: 0}
     - _Highlight_2_Tint: {r: 1, g: 1, b: 1, a: 0}
     - _Highlight_Tint: {r: 0.44499823, g: 0.56293124, b: 0.754717, a: 0}
@@ -289,7 +289,7 @@ Material:
     - _Tint: {r: 0.1254902, g: 0.15686275, b: 0.27058825, a: 0}
     - _View_Vector: {r: 0, g: 0.46, b: -0.75, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &1514057405629100525
+--- !u!114 &2671585689485507310
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5956339139114306668
+--- !u!114 &-5599031727089942820
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 7
+  version: 0
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Glasses_Copy
+  m_Name: M_Suit_Pants_Copy
   m_Shader: {fileID: -6465566751694194690, guid: ec855ac9dde5dad46bf9fb1af1ae8150,
     type: 3}
   m_Parent: {fileID: 0}
@@ -54,7 +54,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Base_Color:
-        m_Texture: {fileID: 2800000, guid: 1270350247c551c459dd9a3499de08a6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 62856fea1fbe5384f889ddc41811250c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
@@ -122,7 +122,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: ceccced054b024446bb160bb3ea1928c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9909938b4fdcede46878cff325339787, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -134,7 +134,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Packed:
-        m_Texture: {fileID: 2800000, guid: 7ad6dde752497bc42849ff5c96190118, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8c27c94483e66684c962cc0d31fcc189, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Print:
@@ -142,7 +142,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Roughness:
-        m_Texture: {fileID: 2800000, guid: 057fbac6ad929b143b733e07cc556af1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 19dd76c2bf6684a40aee9037e85f18f5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecularColorMap:
@@ -206,8 +206,8 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _Base_Color_Tiling: 1
     - _BlendMode: 0
-    - _Brightness_Adjust: 1
-    - _Cloth_Alpha: 0
+    - _Brightness_Adjust: 0.4
+    - _Cloth_Alpha: 0.8
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
@@ -217,13 +217,13 @@ Material:
     - _DetailAlbedoScale: 1
     - _DetailNormalScale: 1
     - _DetailSmoothnessScale: 1
-    - _Detail_Main_Only: 0
+    - _Detail_Main_Only: 1
     - _Detail_Normal_Strength: 0
     - _Detail_Strength: 0
     - _Detail_Strength_B: 0
     - _Detail_Strength_G: 0
     - _Detail_Strength_R: 0
-    - _Detail_Tiling: 1
+    - _Detail_Tiling: 8
     - _Detail_Tiling_B: 1
     - _Detail_Tiling_G: 1
     - _Detail_Tiling_R: 1
@@ -277,7 +277,7 @@ Material:
     - _Packed_Color_Influence: 1
     - _Packed_Tiling: 1
     - _Print_Main_Only: 0
-    - _Print_Scale: 4
+    - _Print_Scale: 1
     - _QueueControl: 1
     - _QueueOffset: 0
     - _RayTracing: 0
@@ -286,7 +286,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Roughness_Offset: 0.33
+    - _Roughness_Offset: 0
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -344,16 +344,16 @@ Material:
     - _Print_Rotation: {r: 0, g: 0, b: 0, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _Tint: {r: 0, g: 0, b: 0, a: 1}
+    - _Tint: {r: 0.36456725, g: 0.36263183, b: 0.35674214, a: 1}
     - _Tint_B: {r: 1, g: 1, b: 1, a: 1}
     - _Tint_G: {r: 1, g: 1, b: 1, a: 1}
-    - _Tint_R: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint_R: {r: 0.24780047, g: 0.24640563, b: 0.24215287, a: 1}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &5731512615857320943
+--- !u!114 &6751711278733090674
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 0
+  version: 7
